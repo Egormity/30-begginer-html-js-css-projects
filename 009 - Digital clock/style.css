@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1603486002664-a7319421e133?q=80&w=942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  background-color: rgb(86, 103, 103, 0.6);
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.clockContainer {
+  background-color: rgba(85, 146, 146, 0.6);
+  width: 550px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.timeContainer {
+  background-color: hsl(248, 53%, 58%, 0.6);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+.numbers {
+  font-size: 5rem;
+}
+
+.time {
+  background-color: hsla(248, 48%, 32%, 0.6);
+  padding: 10px 40px;
+  position: relative;
+  top: 20px;
+}
+
+.period {
+  position: relative;
+  top: 10px;
+  font-size: 3rem;
+  background-color: hsl(248, 53%, 58%, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+}

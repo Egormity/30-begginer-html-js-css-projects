@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: cursive;
+}
+
+.container {
+  text-align: center;
+  width: 400px;
+  position: relative;
+}
+
+.loading-bar-back,
+.loading-bar-front {
+  position: absolute;
+  height: 8px;
+  border: none;
+  border-radius: 100px;
+}
+
+.loading-bar-back {
+  background-color: white;
+  width: 100%;
+}
+
+.loading-bar-front {
+  background-color: orangered;
+  width: 0%;
+}

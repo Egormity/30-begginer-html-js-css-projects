@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: cornflowerblue;
+  font-family: cursive;
+  font-size: 1.25rem;
+}
+
+.container {
+  background-color: rgb(168, 226, 226);
+  margin: 10px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 4px 8px 8px hsl(0, 0%, 0%, 0.3);
+}
+
+.textArea {
+  width: 500px;
+  height: 100px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  border: 2px solid;
+}
+
+.counterContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.textArea,
+.counterContainer {
+  color: hsl(0, 0%, 40%);
+}
+
+.totalCounter {
+  color: blue;
+}
+
+.remainingCounter {
+  color: red;
+}

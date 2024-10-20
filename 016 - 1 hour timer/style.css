@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+.container {
+  background-color: slateblue;
+  text-align: center;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 4px 12px 24px hsl(0, 0%, 0%, 0.5);
+}
+
+h1,
+p {
+  text-shadow: 2px 2px 6px hsl(0, 0%, 0%, 0.5);
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 5rem;
+}
+
+button {
+  margin: 0 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  box-shadow: 1px 2px 8px hsl(0, 0%, 0%, 0.3);
+  transition: 0.1s;
+}
+
+button:hover {
+  box-shadow: 1px 4px 8px hsl(0, 0%, 0%, 0.3);
+  transform: translateY(-2px);
+  filter: brightness(95%);
+}
+
+button:active {
+  box-shadow: 1px 1px 8px hsl(0, 0%, 0%, 0.3);
+  transform: translateY(2px);
+  filter: brightness(105%);
+}
+
+.start {
+  background-color: rgb(75, 216, 75);
+}
+
+.stop {
+  background-color: rgb(218, 48, 48);
+}
+
+.reset {
+  background-color: rgb(133, 133, 133);
+}
